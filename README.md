@@ -5,7 +5,7 @@
 </p>
 <br />
 
-<h3>AD Studios - Orçamentos BR Cirúrgica</a></h3>
+<h3>AD Studios - Electron and React with Typescript Boilerplate</a></h3>
 
 <br />
 <hr />
