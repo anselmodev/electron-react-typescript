@@ -1,8 +1,8 @@
-import { PageAction, SET_PAGE_ROUTE, SystemStore } from "../types";
+import { PageAction, SET_PAGE_ROUTE, PageStore } from "../types";
 import qs from "qs";
 import { parseHash } from "../../helpers/parseHash";
 
-const pageState: SystemStore = {
+const pageState: PageStore = {
   data: { title: "", url: "", param: {}, hash: [] }
 };
 

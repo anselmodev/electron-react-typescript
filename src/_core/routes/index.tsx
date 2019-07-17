@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 
+import  HomePageContainer from '../../pages/Home/Home.container';
 import  ExamplePageContainer from '../../pages/Example/Example.container';
 
 interface Props {
@@ -16,6 +17,12 @@ const RenderSection: React.FC = (props: Props) => {
   );
 };
 const routeList: any[] = [
+  {
+    id: 'homePage',
+    path: "/home",
+    exact: false,
+    component: HomePageContainer,
+  },
   {
     id: 'examplePage',
     path: "/example-page",

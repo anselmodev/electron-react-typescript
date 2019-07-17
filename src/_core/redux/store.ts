@@ -1,6 +1,6 @@
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger';
+// import logger from 'redux-logger';
 import { reducerPages }  from './reducers/page.reducer';
 
 const reducers = combineReducers({
@@ -11,7 +11,7 @@ const reducers = combineReducers({
 export const store = createStore(
     reducers,
     applyMiddleware(
-      logger, 
+      // logger, 
       thunk
       )
   );

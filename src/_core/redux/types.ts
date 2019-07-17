@@ -1,6 +1,6 @@
 export const SET_PAGE_ROUTE = "SET_PAGE_ROUTE";
 
-export interface SystemStore {
+export interface PageStore {
   data: {
     title: string;
     url: string;
@@ -9,12 +9,12 @@ export interface SystemStore {
   };
 }
 
-export interface PageStore {
+export interface PagePayload {
   title: string;
   location: any;
 }
 
 export interface PageAction {
   type: typeof SET_PAGE_ROUTE;
-  payload: PageStore;
+  payload: PagePayload;
 }

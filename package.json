@@ -3,7 +3,7 @@
   "description": "Electron Application With React and Typescript",
   "version": "0.1.0",
   "private": true,
-  "main": "electron-core/electron.js",
+  "main": "public/electron.js",
   "homepage": "./",
   "author": {
     "name": "AD Studio ( Anselmo Dev Studio )",

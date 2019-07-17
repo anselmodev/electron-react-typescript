@@ -12,7 +12,7 @@ const App: React.FC = () => {
       <Provider store={store}>
       <HashRouter basename="/" hashType="noslash">
         <div className="root-container">
-          <Route exact path="/" render={() => <Redirect to="/example-page" />} />
+          <Route exact path="/" render={() => <Redirect to="/home" />} />
           {routeList.map(Page => {
             return (
               <Route

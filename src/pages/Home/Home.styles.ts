@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DisplayExamplePage = styled.div`
+export const DisplayHomePage = styled.div`
   width: 100%;
   height: 100%;
   position: fixed;
@@ -16,9 +16,9 @@ export const DisplayExamplePage = styled.div`
     text-align: center;
     margin: 20px 0;
     display: inline-block;
-      span {
-        margin: 10px;
-        display: inline-block;
+    span {
+      margin: 10px;
+      display: inline-block;
     }
   },
   
